@@ -1,0 +1,22 @@
+cabal-version:       >=1.10
+name:                ppadpls
+version:             0.1.0.0
+license-file:        LICENSE
+author:              John Fearnley
+maintainer:          john.fearnley@liverpool.ac.uk
+build-type:          Simple
+
+executable inter
+  main-is:             Main.hs
+  other-modules:       Proof
+                       Parse
+                       Latex
+                       Report
+  build-depends:       base >=4.12 && <4.14,
+                       sbv,
+                       matrix,
+                       yaml,
+                       split,
+                       containers
+  default-language:    Haskell2010
+  default-extensions:  DeriveGeneric
