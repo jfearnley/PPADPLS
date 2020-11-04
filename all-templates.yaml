@@ -1886,7 +1886,7 @@ E2-Left Boundary Environment: >
     7  8 black left
     8  8 black left
 
-S1-Origin Big Square: >
+S-Origin Big Square: >
     0  0 green up
     1  0 black left
     2  0 black left
@@ -1977,7 +1977,7 @@ S1-Origin Big Square: >
     7  8 black left
     8  8 black left
 
-S2-Full Boundary: >
+X-Full Boundary: >
     0  0 green up
     0  1 green up
     0  2 green up
@@ -2530,7 +2530,7 @@ LA6-Blue Path Crossing Over Orange-Blue Path: >
     11 4 black left
     12 4 black left
 
-LA7-Orange-Blue Path Start: >
+LAX1-Orange-Blue Path Start: >
     0  0 black left
     1  0 black left
     2  0 black left
@@ -2585,7 +2585,7 @@ LA7-Orange-Blue Path Start: >
     3  8 blue left
     4  8 black left
 
-LA8-PLS-Labyrinth A Origin: >
+LAX2-PLS-Labyrinth A Origin: >
     0  0 black left
     1  0 black left
     2  0 black down
@@ -2902,7 +2902,7 @@ LB6-Red Path Crossing Over Red-Green Path: >
     11 4 black left
     12 4 black left
 
-LB7-Red-Green Path Start: >
+LBX1-Red-Green Path Start: >
     0  0 black left
     1  0 red left
     2  0 red up
@@ -2957,7 +2957,7 @@ LB7-Red-Green Path Start: >
     3  8 black left
     4  8 black left
 
-LB8-PLS-Labyrinth B Origin: >
+LBX2-PLS-Labyrinth B Origin: >
     0  0 black left
     1  0 black left
     2  0 black left

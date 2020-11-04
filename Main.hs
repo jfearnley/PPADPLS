@@ -6,7 +6,7 @@ import Latex
 import Report
 
 main = do
-   (templates, squares, boundarySqs) <- fullParse "all-templates.yaml" "S2-Full Boundary" 
+   (templates, squares, boundarySqs) <- fullParse "all-templates.yaml" "X-Full Boundary"
    putStrLn $ "Loaded " ++ show (length templates) ++ " templates"
    putStrLn $ "Found " ++ show (length squares) ++ " distinct squares"
    putStrLn $ "Running automated proof"
