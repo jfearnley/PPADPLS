@@ -1,4 +1,4 @@
-# The Complexity of Gradient Descent: GD = CLS = PPAD ∩ PLS
+# The Complexity of Gradient Descent: CLS = PPAD ∩ PLS
 ## Source code for automated proof
 
 This repository contains the full source code for the automated proof used in the paper. 
